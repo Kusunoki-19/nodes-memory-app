@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { DisplayNodesComponent } from './display-nodes/display-nodes.component';
 import { SelectNodesComponent } from './select-nodes/select-nodes.component';
 import { CreateNodeComponent } from './create-node/create-node.component';
+import { NodeComponent } from './node/node.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DisplayNodesComponent,
     SelectNodesComponent,
-    CreateNodeComponent
+    CreateNodeComponent,
+    NodeComponent
   ],
   imports: [
     BrowserModule
